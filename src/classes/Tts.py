@@ -27,7 +27,10 @@ class TTS:
 
         # Path to the .models.json file
         models_json_path = os.path.join(
-            site_packages,
+            #site_packages,
+            "venv",
+            "Lib",
+            "site-packages",
             "TTS",
             ".models.json",
         )
